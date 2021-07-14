@@ -1,0 +1,3 @@
+# Andrei's Business Fundamentals Project Proposal
+
+A large part of Netflix's operating budget goes towards financing and licensing "Netflix Original" programming, including movies, documentaries, TV series, and miniseries.  My project would involve performing an EDA of recent Netflix Original movies, in order to identify programming trends and takeaways.  This information would be useful to filmmakers and production studios looking to make movies that pique the interest of the Netflix behemoth, and would allow them to deploy their talent and resources in a more targeted way.
