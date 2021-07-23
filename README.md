@@ -10,7 +10,7 @@ We used Pandas to combine the two tables into one, keeping a list of all unique 
 
 - Songs with a release date prior to Jan 1, 2017.   Since pre-2017 streaming data was not available in this dataset, it is likely that our calculated "peak daily position achieved" value is less than the true all-time value for these songs.
 
-- Songs with a release date after Jun 1, 2020.   Reasoning along similar lines as the first point above, we wanted to give all songs at least several months (through Nov 5, 2020) to achieve their peak daily position, in order to avoid systematically underestimating this important target feature.  This decision (to keep songs released in the first 6 months of 2020) has the added bonus that any by-year aggregation data for 2020 can just be doubled if we wish to compare it to the other three years in an apples-to-apples way.
+- Songs with a release date after Jun 1, 2020.   Reasoning along similar lines as the first point above, we wanted to give all songs at least several months (through Nov 5, 2020) a chance to achieve their peak daily position, in order to avoid systematically underestimating this important target feature.  This decision (to keep songs released in the first 6 months of 2020) has the added bonus that any by-year aggregation data for 2020 can just be doubled if we wish to compare it to the other three years in an apples-to-apples way.
 
 ## Tools and Algorithms
 
