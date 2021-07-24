@@ -18,5 +18,5 @@ We used Pandas for data aggregation, some feature engineeering, and rudimentary 
 
 ## Communication
 
-Our exploratory data analysis yielded several interesting takeaways, best viewed in the slide deck [here](https://github.com/andreilevin/BF_project/blob/main/AndreiPresentation.pdf).  Based on our initial analysis, we believe an machine-learning-driven extension of this initial approach could be fruitful in delivering actionable insights to musical artists and content creators looking to  increase their streaming numbers and make the figurative leap from gold to platinum.
+Our exploratory data analysis yielded several interesting takeaways, best viewed in the slide deck [here](https://github.com/andreilevin/BF_project/blob/main/AndreiPresentation.pdf).  Based on our initial analysis, we believe an machine-learning-driven extension of this initial approach could be fruitful in delivering actionable insights to musical artists and content creators looking to  increase their streaming numbers and make the figurative leap from gold to platinum.  (At the same time, there are thousands of variables that contribute to the popularity of any given song, so who knows how informative the twenty or so that we are looking at really are.)
 
