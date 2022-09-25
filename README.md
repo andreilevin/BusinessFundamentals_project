@@ -1,6 +1,6 @@
 # A Spotify Streaming Analysis
 
-In this project for the Metis "Business Fundamentals" module, I performed exploratory data analysis on Spotify music streaming data in order to extract actionable insights regarding which key features differentiate ultra-popular songs ("superheroes") from the merely popular ("heroes").  Such a data-driven approach to generating insights could help musical artists and content creators looking to  increase their streaming numbers and make the figurative leap from gold to platinum. 
+In this project for the Metis "Business Fundamentals" module, I performed exploratory data analysis on Spotify music streaming data in order to extract actionable insights regarding which key features differentiate ultra-popular songs ("superheroes") from the merely popular ("heroes").  The goal was to demonstrate that a data-driven approach to generating insights could help musical artists and content creators looking to  increase their streaming numbers and make the figurative leap from gold to platinum. 
 
 ### Project Presentation [Slides](https://github.com/andreilevin/BF_project/blob/main/AndreiPresentation.pdf): 
 
@@ -8,7 +8,7 @@ In this project for the Metis "Business Fundamentals" module, I performed explor
 
 ## Project Design
 
-I began my analysis with two tables from [Kaggle](https://www.kaggle.com/pepepython/spotify-huge-database-daily-charts-over-3-years?select=Database+to+calculate+popularity.csv).  The first (enormous) table contains the titles, artists, and unique ids for every song in the Spotify daily Top 200 most streamed, both globally and in each of 35 different countries, for every day between Jan 1, 2017 and Nov 5, 2020.   The second table contains a collection of multiple interesting features for each unique song in the first dataset. 
+I began my analysis with two [tables](https://www.kaggle.com/pepepython/spotify-huge-database-daily-charts-over-3-years?select=Database+to+calculate+popularity.csv) from Kaggle.  The first (enormous) table contains the titles, artists, and unique ID's for every song in the Spotify daily Top 200 most streamed, both globally and in each of 35 different countries, for every day between Jan 1, 2017 and Nov 5, 2020.   The second table contains a collection of multiple interesting features for each unique song in the first dataset. 
 
 I combined the two tables into one, keeping a list of all unique songs in the USA Daily Top 200 over this time period, along with multiple interesting features for each song (including some engineered by me).  These extra engineered features include song popularity metrics such as the number of appearances in the Daily Top 200 over this time period and the peak daily position achieved.  In order to level the playing field somewhat between songs with earlier and later release dates, I removed all songs subject to the following two filters:
 
@@ -19,5 +19,5 @@ I combined the two tables into one, keeping a list of all unique songs in the US
 ## Tools 
 
 * Pandas for data aggregation, some feature engineeering, and rudimentary cleaning
-* Google Sheets for cleaning and pivot tables (see the [workbook](https://github.com/andreilevin/BF_project/blob/main/myspotify.xlsx) in this repository), 
+* Excel for cleaning and pivot tables (see the [workbook](https://github.com/andreilevin/BF_project/blob/main/myspotify.xlsx) in this repository), 
 * Tableau for data visualization
